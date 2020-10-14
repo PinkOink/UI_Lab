@@ -1,0 +1,30 @@
+# depslib dependency file v1.0
+1575118256 source:c:\users\edwar\documents\codeblocks\text_reader\main.c
+	<windows.h>
+	<commdlg.h>
+	<string.h>
+	"text_class.h"
+	"MenuMacros.h"
+	"winproc_params.h"
+	"MessageBoxCode.h"
+
+1572700068 source:c:\users\edwar\documents\codeblocks\text_reader\text_class.c
+	"text_class.h"
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"MessageBoxCode.h"
+
+1572699951 c:\users\edwar\documents\codeblocks\text_reader\text_class.h
+	<stdlib.h>
+	"MessageBoxCode.h"
+
+1572694977 c:\users\edwar\documents\codeblocks\text_reader\menumacros.h
+
+1572658628 source:c:\users\edwar\documents\codeblocks\text_reader\mainmenu.rc
+	"MenuMacros.h"
+
+1572697040 c:\users\edwar\documents\codeblocks\text_reader\winproc_params.h
+
+1572697040 c:\users\edwar\documents\codeblocks\text_reader\messageboxcode.h
+

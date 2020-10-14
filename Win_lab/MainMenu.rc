@@ -1,0 +1,20 @@
+#include "MenuMacros.h"
+
+TextReader MENU
+{
+    POPUP "File"
+    {
+        MENUITEM "Open...", IDM_FILE_OPEN
+        MENUITEM SEPARATOR
+        MENUITEM "Exit", IDM_FILE_EXIT
+    }
+    POPUP "View"
+    {
+        MENUITEM "Fixed mode", IDM_VIEW_FIXED
+        MENUITEM "Regular mode", IDM_VIEW_REGULAR, CHECKED, GRAYED
+    }
+    POPUP "Help"
+    {
+        MENUITEM "About...", IDM_HELP_ABOUT
+    }
+}
